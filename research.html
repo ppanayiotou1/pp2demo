@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Panayiotis Andreou</title>
+
+    <!-- CSS & CUSTOM FONTS -->
+    <link href="css/style.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Play:700,400%7CSintony:400,400&subset=cyrillic,cyrillic-ext,devanagari,greek,greek-ext,khmer,latin,latin-ext,vietnamese,hebrew,arabic,bengali,gujarati,tamil,telugu,thai,cyrillic,cyrillic-ext,devanagari,greek,greek-ext,khmer,latin,latin-ext,vietnamese,hebrew,arabic,bengali,gujarati,tamil,telugu,thai">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <script src="https://unpkg.com/ionicons@4.4.4/dist/ionicons.js"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.6-rc.0/css/select2.min.css" rel="stylesheet" />
+
+</head>
+
+<body>
+    <div id="page">
+        <div id="side-nav">
+            <div id="profile-container">
+                <img id="profile-pic" src="images/Panayiotis_Andreou.jpg" alt="">
+                <p id="name">Dr. Panayiotis Andreou</p>
+                <p id="uni">Professor at UCLan Cyprus</p>
+            </div>
+            <li><a class="first" href="index.html">about me<i class="material-icons icon"> keyboard_arrow_right </i></a></li>
+            <li><a class="active" href="research.html">research<i class="material-icons icon"> keyboard_arrow_right </i></a></li>
+            <li><a href="publications.html">publications<i class="material-icons icon"> keyboard_arrow_right </i></a></li>
+            <li><a href="#">teaching<i class="material-icons icon"> keyboard_arrow_right </i></a></li>
+            <li><a href="#">supervision<i class="material-icons icon"> keyboard_arrow_right </i></a></li>
+            <li><a href="#">software<i class="material-icons icon"> keyboard_arrow_right </i></a></li>
+            <li><a href="#">contact<i class="material-icons icon"> keyboard_arrow_right </i></a></li>
+        </div>
+
+        <div id="content">
+            <div id="particles-js"></div>
+            <div class="container">
+                <span id="page-title">Reseacrh</span>
+
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda porro eos possimus aliquid excepturi temporibus ullam. Magnam at autem non aperiam recusandae, quas impedit nam facere eius nostrum quo voluptatum et tempora, vitae fugit maxime cupiditate rem numquam inventore delectus beatae animi! Quam sequi assumenda dolore distinctio iusto ducimus modi minima dicta quas impedit autem odio quibusdam officia, atque qui voluptates accusantium nisi consequatur reprehenderit eius doloremque quaerat laudantium blanditiis quia. Eligendi, perspiciatis, eveniet. Non error quibusdam aut, voluptatem placeat accusamus voluptates natus consequuntur temporibus beatae. Cupiditate earum obcaecati, nulla repellat optio magnam. Omnis dolorum aut commodi sit perspiciatis obcaecati:</p>
+                <ul>
+                    <li class="bullet-points">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum fugiat accusantium, voluptas nulla earum itaque ratione quae nesciunt voluptatibus facilis delectus autem magnam temporibus ipsam aut ea. Molestias, iure, sint.</li>
+                    <li class="bullet-points">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum fugiat accusantium, voluptas nulla earum itaque ratione quae nesciunt voluptatibus facilis delectus autem magnam temporibus ipsam aut ea. Molestias, iure, sint.</li>
+                    <li class="bullet-points">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum fugiat accusantium, voluptas nulla earum itaque ratione quae nesciunt voluptatibus facilis delectus autem magnam temporibus ipsam aut ea. Molestias, iure, sint.</li>
+                    <li class="bullet-points">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum fugiat accusantium, voluptas nulla earum itaque ratione quae nesciunt voluptatibus facilis delectus autem magnam temporibus ipsam aut ea. Molestias, iure, sint.</li>
+                </ul>
+                <div class="push-bot-md"></div>
+
+                <div class="flex">
+                    <div id="interests-container">
+                        <h3 class="custom-underline">INTERESTS</h3>
+                        <div class="wrapper">
+                            <div class="item">Interest 1</div>
+                            <div class="item">Interest 2</div>
+                            <div class="item">Interest 3</div>
+                            <div class="item">Interest 4</div>
+                            <div class="item">Interest 5</div>
+                        </div>
+                    </div>
+
+
+                    <img id="data-img" src="images/data-analysis.png" alt="">
+
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <!-- JAVASCRIPT -->
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.6-rc.0/js/select2.min.js"></script>
+
+    <script>
+        $(document).ready(function() {
+
+
+            particlesJS('particles-js', {
+                "particles": {
+                    "number": {
+                        "value": 25,
+                        "density": {
+                            "enable": true,
+                            "value_area": 250
+                        }
+                    },
+                    "color": {
+                        "value": "#191919"
+                    },
+                    "shape": {
+                        "type": "circle",
+                        "stroke": {
+                            "width": 0,
+                            "color": "#191919"
+                        },
+                        "polygon": {
+                            "nb_sides": 1
+                        },
+                        "image": {
+                            "src": "img/github.svg",
+                            "width": 100,
+                            "height": 100
+                        }
+                    },
+                    "opacity": {
+                        "value": 0.5,
+                        "random": false,
+                        "anim": {
+                            "enable": false,
+                            "speed": 1,
+                            "opacity_min": 0.1,
+                            "sync": false
+                        }
+                    },
+                    "size": {
+                        "value": 1,
+                        "random": false,
+                        "anim": {
+                            "enable": false,
+                            "speed": 30,
+                            "size_min": 0.1,
+                            "sync": false
+                        }
+                    },
+                    "line_linked": {
+                        "enable": true,
+                        "distance": 150,
+                        "color": "#191919",
+                        "opacity": 0.4,
+                        "width": 1
+                    },
+                    "move": {
+                        "enable": true,
+                        "speed": 1,
+                        "direction": "none",
+                        "random": false,
+                        "straight": false,
+                        "out_mode": "out",
+                        "bounce": false,
+                        "attract": {
+                            "enable": false,
+                            "rotateX": 600,
+                            "rotateY": 1200
+                        }
+                    }
+                },
+                "interactivity": {
+                    "detect_on": "canvas",
+                    "events": {
+                        "onhover": {
+                            "enable": false,
+                            "mode": "repulse"
+                        },
+                        "onclick": {
+                            "enable": false,
+                            "mode": "push"
+                        },
+                        "resize": true
+                    },
+                    "modes": {
+                        "grab": {
+                            "distance": 400,
+                            "line_linked": {
+                                "opacity": 1
+                            }
+                        },
+                        "bubble": {
+                            "distance": 400,
+                            "size": 40,
+                            "duration": 2,
+                            "opacity": 8,
+                            "speed": 3
+                        },
+                        "repulse": {
+                            "distance": 200,
+                            "duration": 0.4
+                        },
+                        "push": {
+                            "particles_nb": 4
+                        },
+                        "remove": {
+                            "particles_nb": 2
+                        }
+                    }
+                },
+                "retina_detect": true
+            });
+
+
+        });
+
+    </script>
+
+
+</body>
+
+</html>
